@@ -41,13 +41,13 @@ o	The in-order predecessor/successor replaces the deleted node.
 
 o	The tree rebalances itself using appropriate rotations.
 # Compilation & Execution
-Requirements:
-
-•	C++ Compiler (e.g., g++)
+Requirements: C++ Compiler (e.g., g++)
 Compile the Code:
  g++ -o avl_tree avl_tree.cpp
 Run the Program:
  ./avl_tree
+
+ 
 Example Usage:
 1. Display level order on newline
 2. Insert
