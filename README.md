@@ -1,7 +1,7 @@
 # AVL-Tree-Implementation
 This project implements an AVL tree, a self-balancing binary search tree, in C++. The AVL tree ensures balance by maintaining the height difference between left and right subtrees to a maximum of 1 using left rotations and right rotations during insertion and deletion operations.
 
-Features
+# Features
 The AVL tree supports the following operations:
 
 •	Insertion (insert): Adds a new element while maintaining balance using rotations.
@@ -24,7 +24,7 @@ o	Right-Left (rlrotation)
 
 •	Level Order Traversal (levelorder_newline): Displays the tree structure level by level.
 
-How It Works
+# How It Works
 1.	Insertion:
 
 o	A new node is added following BST rules.
@@ -40,7 +40,7 @@ o	The node is removed similarly to BST deletion.
 o	The in-order predecessor/successor replaces the deleted node.
 
 o	The tree rebalances itself using appropriate rotations.
-Compilation & Execution
+# Compilation & Execution
 Requirements:
 
 •	C++ Compiler (e.g., g++)
@@ -65,7 +65,7 @@ Choice: 1
 File Structure
 - avl_tree.cpp  # Main implementation
 - README.md     # Project documentation
-Future Improvements
+# Future Improvements
 
 •	Implement search functionality.
 
